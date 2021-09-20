@@ -20,7 +20,6 @@ def form():
         l_name = request.form.get("l-name")
         email = request.form.get("email")
         message = request.form.get("message")
-        print(f_name, l_name, message, email)
 
         server = smtplib.SMTP("smtp.gmail.com")
         server.starttls()
