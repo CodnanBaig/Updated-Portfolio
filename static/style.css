@@ -1,0 +1,209 @@
+h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+  font-family: "Open Sans", fantasy;
+  text-align: right;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+#intro, #navigator {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.better-world {
+  height: 30%;
+  width: auto;
+  text-align: right;
+  color: white;
+  padding: 17% 5% 20%;
+}
+
+#about-me {
+  background-color: #F3F1F5;
+  padding: 3%;
+  text-align: center;
+}
+
+.para-1 {
+  text-align: center;
+  padding: 5% 25% 5% 25%;
+  margin-bottom: 0px;
+}
+
+#skills {
+  background-color: #345B63;
+  align-items: center;
+}
+
+.container-fluid {
+  padding-bottom: 30px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+hr {
+  width: 25%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: dashed;
+  border-width: 1px;
+  border-left: none;
+  border-right: none;
+  border-width: thin;
+}
+
+
+.skill-logo{
+  width: 100px;
+  height: auto;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+}
+
+#projects {
+  background-image: url("images/project-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  image-resolution: snap;
+}
+
+.pj-cont {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  perspective: 1000px;
+}
+
+.card {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-color: #345B63;
+  height: 200;
+}
+
+
+.card-img-top {
+  width: 70%;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.card-text {
+  color: white;
+  text-align: center;
+}
+
+.face-back{
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  backface-visibility: hidden;
+}
+
+
+#contact {
+  background-image: url("images/contact.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.contact-form {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.contact-me {
+  background-color: inherit;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.head {
+  background-color: black;
+  border-radius: 5px;
+  margin-top: -40px;
+  -webkit-box-shadow: 0px 9px 36px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 9px 36px -7px rgba(0,0,0,0.75);
+  box-shadow: 0px 9px 36px -7px rgba(0,0,0,0.75);
+}
+.effect-1 {
+  border: 4px;
+  outline: 4px;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid black;
+  border-top: 1px dashed white;
+}
+
+.effect-1 ~ .Focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background-color: black;
+  transition: 0.4s;
+}
+
+.effect-1:focus~ .Focus-border {
+  width: 100%;
+  transition: 0.4s;
+  left: 0;
+}
+
+.btn1 {
+  background: black;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 149px;
+}.btn1:hover {
+  -webkit-box-shadow: 0px 9px 36px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 9px 36px -7px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 36px -7px rgba(0,0,0,0.75);
+}
+
+#footer {
+  background-color: #345B63;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.foot-cont {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.icons {
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 20px;
+}
