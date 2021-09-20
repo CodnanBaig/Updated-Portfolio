@@ -114,6 +114,17 @@ hr {
   height: 200;
 }
 
+.front {
+  border-radius: 25px;
+  box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+  background-color: inherit;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+}
 
 .card-img-top {
   width: 70%;
@@ -207,8 +218,8 @@ hr {
 
 .foot-cont {
   width: 100%;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 
 .icons {
