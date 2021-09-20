@@ -177,6 +177,7 @@ hr {
 
 .btn1 {
   background: black;
+  justify-content: center;
   color: white;
   outline: none;
   border: none;
