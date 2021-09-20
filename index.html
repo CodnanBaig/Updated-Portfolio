@@ -251,9 +251,11 @@
     </script>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
-      VanillaTilt.init(document.querySelector(".front"), {
+      VanillaTilt.init(document.querySelectorAll(".front"), {
   		max: 20,
-  		speed: 400
+  		speed: 400,
+  		glare: true,
+  		"max-glare": 1,
   	});
     </script>
   </body>
