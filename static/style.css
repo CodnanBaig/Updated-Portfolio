@@ -26,6 +26,16 @@ p {
   background-attachment: fixed;
 }
 
+
+.bg-dark {
+  background: transparent !important;
+  transition: 0.75s ease;
+}
+
+.bg-dark.scrolled {
+    background:#000 !important;
+}
+
 .better-world {
   height: 30%;
   width: auto;
